@@ -6,35 +6,33 @@
 // Import React every .js file
 import React from 'react';
 
-// Import Switch, Route, NavLink, Link for dynamic components
-import { Switch, Route, NavLink, Link } from 'react-router-dom';
+// Import useState to pass props from data through components
+import { useState } from 'react-dom';
+
+// Import Switch, Route for dynamic "server-less" page
+import { Switch, Route } from 'react-router-dom';
 
 // Import Components
+import MainNav from './components/MainNav/MainNav';
 import Home from './components/Home/Home';
 import MeetTheTeam from './components/MeetTheTeam/MeetTheTeam';
+
+// Import data to set state
+import theTeam from './components/data/theTeam';
 
 // Import style sheet
 import './App.css';
 import './screen-reader-only.css';
 
 function App() {
+	// const [teamMemberStats, setTeamMemberStats] = useState(theTeam);
+
 	return (
 		<section className='App'>
-			<header className='screen-reader-only'>
-				<h1>Laarzae Studios</h1>
-				<h2>Gaming That Gives Back</h2>
-			</header>
-			<img
-				src='../public/photos/laarzae-logo.png'
-				alt='Laarzae Studios: Gaming that gives back'
-			/>
-			<nav>
-				<NavLink to='/'>Home</NavLink>
-				<NavLink to='/the-team'>Meet the Team</NavLink>
-			</nav>
+			<MainNav />
 			<Switch>
 				<Route exact path='/'>
-					{/* <Home /> */}
+					<Home />
 				</Route>
 				<Route exact path='/the-team'>
 					{/* <MeetTheTeam /> */}

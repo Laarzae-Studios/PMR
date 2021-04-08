@@ -75,15 +75,19 @@ const theTeam = [
 			'The Laarzae mission resonates with me because I cant think of anything better than making games and giving back',
 		myPassion:
 			'I got into coding because I love video games and I love the puzzle that comes with coding. The reward from getting code to work is the best high I can think of.',
-		imgSrc: '',
+		imgSrc:
+			'https://github.com/Laarzae-Studios/PMR/blob/first-attempt-tdubs/src/photos/ryan-pixel.png',
 	},
 	{
 		name: 'Cris LaFortune',
 		title: 'Creative Crafter + Web Wizard',
 		boringTitle: 'Graphic Designer + Web Developer',
-		myCTA: '',
-		myPassion: '',
-		imgSrc: '',
+		myCTA:
+			'In my past career I was a teacher, and I want to eventually give back and help others learn to code and level up their careers.',
+		myPassion:
+			'I have always loved video games, and I started coding because I wanted to make them.',
+		imgSrc:
+			'https://github.com/Laarzae-Studios/PMR/blob/815f9d7bbe84e5b87400e7ddb670ff4df4de6216/src/photos/cris-pixel.png',
 	},
 ];
 

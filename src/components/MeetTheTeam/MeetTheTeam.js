@@ -6,8 +6,13 @@
 // Import React every .js file
 import React from 'react';
 
-function MeetTheTeam() {
-	return;
+// Import components
+// import TeamMember from './TeamMember';
+
+function MeetTheTeam(props) {
+	const { name, title, boringTitle, myCTA, myPassion, imgSrc } = props;
+
+	return <section>{/* {theTeam.map((teamMember) => TeamMember())} */}</section>;
 }
 
 export default MeetTheTeam;
