@@ -27,11 +27,23 @@ const theTeam = [
 		name: 'Tawnya Wessar',
 		title: 'Money Mage + Web Wizard + Scribe',
 		boringTitle: 'CFO + Web Developer + Author',
-		myCTA: '',
+		myCTA:
+			'Laarzae gives me an oppurtunity to be the advocate I have always wanted to be. As someone who struggles with a lot of "stuff", my mission in life is to be successful while helping others reach their goals. We are all human and we all deserve love and support.',
 		myPassion:
 			'I am a full-time bonus mom and homemaker by day: ninja fullstack web development student by night! What never changes? My passion for supporting people while they become their best self. Never forget: remember your why!',
 		imgSrc:
 			'https://github.com/Laarzae-Studios/PMR/blob/16774e0bf5838fade6959dc4250de0d56ca24cfb/public/assets/tawnya-pixel.png',
+	},
+	{
+		name: 'Randy Egan',
+		title: 'Merrymaking Mastermind + Web Wizard',
+		boringTitle: 'Game Designer + Project Manager + Web Developer',
+		myCTA:
+			'I never thought I’d get a chance to use my game design skills in such a meaningful way. For me project mage is an opportunity to provide mental health, LGBT and gender identity support to people who need it.',
+		myPassion:
+			'After graduating with a degree in game design, I decided to take a year to study web development. When I’m not writing code, I like playing drums, hockey, and doing anything outdoors!',
+		imgSrc:
+			'https://github.com/Laarzae-Studios/PMR/blob/16774e0bf5838fade6959dc4250de0d56ca24cfb/public/assets/randy-pixel.png',
 	},
 	{
 		name: 'Kyle Nelson',
@@ -46,8 +58,8 @@ const theTeam = [
 	},
 	{
 		name: 'Ben Solt',
-		title: 'Merrymaking Mastermind + Creative Crafter',
-		boringTitle: 'Game Designer + Graphic Designer',
+		title: 'Creative Crafter',
+		boringTitle: 'Graphic Designer',
 		myCTA:
 			'It has been a dream of mine since college to work in the video game industry/create a video game. Working with this group has helped make that dream a reality.',
 		myPassion:
@@ -55,4 +67,24 @@ const theTeam = [
 		imgSrc:
 			'https://github.com/Laarzae-Studios/PMR/blob/16774e0bf5838fade6959dc4250de0d56ca24cfb/public/assets/ben-pixel.png',
 	},
+	{
+		name: 'Ryan Miller',
+		title: 'Merrymaking Mastermind',
+		boringTitle: 'Game Designer + Software Engineer',
+		myCTA:
+			'The Laarzae mission resonates with me because I cant think of anything better than making games and giving back',
+		myPassion:
+			'I got into coding because I love video games and I love the puzzle that comes with coding. The reward from getting code to work is the best high I can think of.',
+		imgSrc: '',
+	},
+	{
+		name: 'Cris LaFortune',
+		title: 'Creative Crafter + Web Wizard',
+		boringTitle: 'Graphic Designer + Web Developer',
+		myCTA: '',
+		myPassion: '',
+		imgSrc: '',
+	},
 ];
+
+export default theTeam;
