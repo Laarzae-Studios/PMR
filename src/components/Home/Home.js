@@ -16,7 +16,11 @@ function Home() {
 				<h1>Laarzae Studios</h1>
 				<h2>Gaming That Gives Back</h2>
 			</header>
-			<img src={laarzaeLogo} alt='Laarzae Studios: Gaming that gives back' />
+			<img
+				className='laarzae-logo'
+				src={laarzaeLogo}
+				alt='Laarzae Studios: Gaming that gives back'
+			/>
 		</section>
 	);
 }

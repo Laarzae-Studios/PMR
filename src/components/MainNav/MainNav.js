@@ -12,7 +12,7 @@ import { NavLink } from 'react-router-dom';
 function MainNav() {
 	return (
 		<nav>
-			<NavLink to='/' activeClassName='activeNavLink'>
+			<NavLink exact to='/' activeClassName='activeNavLink'>
 				Home
 			</NavLink>
 			<NavLink to='/active-project' activeClassName='activeNavLink'>
