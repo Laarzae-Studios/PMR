@@ -24,6 +24,10 @@ function App() {
 				<h1>Laarzae Studios</h1>
 				<h2>Gaming That Gives Back</h2>
 			</header>
+			<img
+				src='../public/photos/laarzae-logo.png'
+				alt='Laarzae Studios: Gaming that gives back'
+			/>
 			<nav>
 				<NavLink to='/'>Home</NavLink>
 				<NavLink to='/the-team'>Meet the Team</NavLink>
