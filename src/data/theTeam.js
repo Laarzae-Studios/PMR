@@ -5,14 +5,14 @@
  * */
 
 // Import photos
-import timPhoto from '../../public/photos/tim-pixel.png';
-import michellePhoto from '../../public/photos/michelle-pixel.png';
-import tawnyaPhoto from '../../public/photos/tawnya-pixel.png';
-import randyPhoto from '../../public/photos/randy-pixel.png';
-import kylePhoto from '../../public/photos/kyle-pixel.png';
-import benPhoto from '../../public/photos/ben-pixel.png';
-import ryanPhoto from '../../public/photos/ryan-pixel.png';
-import crisPhoto from '../../public/photos/cris-pixel.png';
+import timPhoto from '../images/tim-pixel.png';
+import michellePhoto from '../images/michelle-pixel.png';
+import tawnyaPhoto from '../images/tawnya-pixel.png';
+import randyPhoto from '../images/ryan-pixel.png';
+import kylePhoto from '../images/kyle-pixel.png';
+import benPhoto from '../images/ben-pixel.png';
+import ryanPhoto from '../images/ryan-pixel.png';
+import crisPhoto from '../images/cris-pixel.png';
 
 const theTeam = [
 	{

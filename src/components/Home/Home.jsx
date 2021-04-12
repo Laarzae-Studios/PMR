@@ -6,7 +6,7 @@
 import React from 'react';
 
 // Import photos
-import laarzaeLogo from '../../../public/photos/laarzae-logo.png';
+import laarzaeLogo from '../../images/laarzae-logo.png';
 
 function Home() {
 	return (

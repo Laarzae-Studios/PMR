@@ -6,7 +6,7 @@
 import React from 'react';
 
 // Import photos
-import projectMageLogo from '../../../public/photos/project-mage-logo.png';
+import projectMageLogo from '../../images/project-mage-logo.png';
 
 function ActiveProject() {
 	return (
