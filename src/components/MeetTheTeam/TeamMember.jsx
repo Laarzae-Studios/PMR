@@ -3,11 +3,9 @@
  *
  * @format
  * */
-// Import React every .js file
 import React from 'react';
 
-function TeamMember(props) {
-	const { name, title, boringTitle, myCTA, myPassion, imgSrc } = props;
+function TeamMember({ name, title, boringTitle, myCTA, myPassion, imgSrc }) {
 
 	return (
 		<figure>

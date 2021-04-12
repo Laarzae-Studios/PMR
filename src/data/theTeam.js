@@ -3,18 +3,16 @@
  *
  * @format
  * */
-// Import React every .js file
-import React from 'react';
 
 // Import photos
-import timPhoto from '../photos/tim-pixel.png';
-import michellePhoto from '../photos/michelle-pixel.png';
-import tawnyaPhoto from '../photos/tawnya-pixel.png';
-import randyPhoto from '../photos/randy-pixel.png';
-import kylePhoto from '../photos/kyle-pixel.png';
-import benPhoto from '../photos/ben-pixel.png';
-import ryanPhoto from '../photos/ryan-pixel.png';
-import crisPhoto from '../photos/cris-pixel.png';
+import timPhoto from '../../public/photos/tim-pixel.png';
+import michellePhoto from '../../public/photos/michelle-pixel.png';
+import tawnyaPhoto from '../../public/photos/tawnya-pixel.png';
+import randyPhoto from '../../public/photos/randy-pixel.png';
+import kylePhoto from '../../public/photos/kyle-pixel.png';
+import benPhoto from '../../public/photos/ben-pixel.png';
+import ryanPhoto from '../../public/photos/ryan-pixel.png';
+import crisPhoto from '../../public/photos/cris-pixel.png';
 
 const theTeam = [
 	{

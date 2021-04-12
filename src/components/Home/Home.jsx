@@ -3,11 +3,10 @@
  *
  * @format
  * */
-// Import React every .js file
 import React from 'react';
 
 // Import photos
-import laarzaeLogo from '../../photos/laarzae-logo.png';
+import laarzaeLogo from '../../../public/photos/laarzae-logo.png';
 
 function Home() {
 	return (

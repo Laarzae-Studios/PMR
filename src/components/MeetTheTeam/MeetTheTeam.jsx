@@ -3,7 +3,6 @@
  *
  * @format
  * */
-// Import React every .js file
 import React from 'react';
 
 // Import components
@@ -16,7 +15,7 @@ function MeetTheTeam() {
 	return (
 		<section>
 			{theTeam.map((teamMate) => {
-				<TeamMember
+				return <TeamMember
 					name={teamMate.name}
 					title={teamMate.title}
 					boringTitle={teamMate.boringTitle}
