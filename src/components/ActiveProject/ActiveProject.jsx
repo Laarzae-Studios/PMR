@@ -3,13 +3,12 @@
  *
  * @format
  * */
-// Import React every .js file
 import React from 'react';
 
 // Import photos
-import projectMageLogo from '../../photos/project-mage-logo.png';
+import projectMageLogo from '../../images/project-mage-logo.png';
 
-function ActiveProject(props) {
+function ActiveProject() {
 	return (
 		<section>
 			<header className='screen-reader-only'>
