@@ -1,8 +1,6 @@
 /**
  * Remember your why
- *
- * @format
- * */
+ **/
 import React from "react";
 
 // Import Switch, Route for dynamic "server-less" page
@@ -16,10 +14,6 @@ import MeetTheTeam from "./components/MeetTheTeam/MeetTheTeam";
 
 // Import data for team
 import theTeam from "./data/theTeam";
-
-// Import style sheet
-import "./App.css";
-import "./screen-reader-only.css";
 
 function App() {
     return (
