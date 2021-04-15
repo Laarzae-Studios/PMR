@@ -1,12 +1,8 @@
 /**
  * Remember your why
- *
- * @format
  * */
-// Import React every .js file
-import React from 'react';
 
-// Import NavLink for Nav that works with Routes
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 function MainNav() {

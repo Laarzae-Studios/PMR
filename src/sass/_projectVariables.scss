@@ -1,0 +1,33 @@
+/**
+ * Remember your why
+ * */
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Press+Start+2P&family=Zilla+Slab+Highlight&display=swap');
+
+$pixel-font-stack: 'Press Start 2P', cursive;
+$brushed-font-stack: 'Akaya Telivigala', fantasy;
+$white-highlight-font-stack: 'Zilla Slab Highlight', monospace;
+
+$heading-font-size: 3.5rem;
+$subheading-font-size: 2.75rem;
+$body-font-size: 1.25rem;
+$smaller-body-font-size: .875rem;
+$larger-body-font-size: 1.75rem;
+
+// Color Scheme
+$ocean-green: rgb(32, 194, 141);
+$ocean-green-semi-opaque: rgba(32, 194, 141, .5);
+
+$tawny-orange: rgb(205, 87, 0);
+$tawny-orange-semi-opaque: rgba(205, 87, 0, .5);
+
+$fire-red: rgb(200, 39, 4);
+$fire-red-semi-opaque: rgba(200, 39, 4, .5);
+
+$grey: rgb(111, 111, 111);
+$grey-semi-opaque: rgba(111, 111, 111, .5);
+
+$deep-purple: rgb(38, 20,71);
+$deep-purple-semi-opaque: rgba(38, 20,71, .5);
+
+$forest-green: rgb(36, 48, 16);
+$forest-green-semi-opaque: rgb(36, 48, 16, .5);
