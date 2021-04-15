@@ -6,7 +6,7 @@
 import React from 'react';
 
 // Import components
-import TeamMember from './TeamMember';
+import TeamMember from './TeamMember/TeamMember.jsx';
 
 // Import data for team
 import theTeam from '../../data/theTeam';

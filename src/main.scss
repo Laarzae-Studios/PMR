@@ -6,7 +6,12 @@
 
 @import "sass/reset",
         "sass/screen-reader-only",
-        "components/MainNav/MainNav";
+        "components/MainNav/MainNav",
+        "components/Home/Home",
+        "components/ActiveProject/ActiveProject",
+        "components/MeetTheTeam/MeetTheTeam",
+        "components/GetInvolved/GetInvolved";
+
 
 html {
     background-color: black;
