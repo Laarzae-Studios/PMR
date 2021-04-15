@@ -3,7 +3,7 @@
  *
  * @format
  * */
-import React           from "react";
+import React from "react";
 
 // Import stylesheets and photos
 import "./ActiveProject.css";
