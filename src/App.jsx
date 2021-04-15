@@ -1,11 +1,7 @@
 /**
  * Remember your why
- *
- * @format
- * */
+ **/
 import React from "react";
-
-// Import Switch, Route for dynamic "server-less" page
 import {Switch, Route} from "react-router-dom";
 
 // Import Components
@@ -13,13 +9,10 @@ import MainNav from "./components/MainNav/MainNav";
 import Home from "./components/Home/Home";
 import ActiveProject from "./components/ActiveProject/ActiveProject";
 import MeetTheTeam from "./components/MeetTheTeam/MeetTheTeam";
+import GetInvolved from "./components/GetInvolved/GetInvolved";
 
 // Import data for team
 import theTeam from "./data/theTeam";
-
-// Import style sheet
-import "./App.css";
-import "./screen-reader-only.css";
 
 function App() {
     return (
@@ -34,6 +27,9 @@ function App() {
                 </Route>
                 <Route exact path='/the-team'>
                     <MeetTheTeam/>
+                </Route>
+                <Route exact path='/get-involved'>
+                    <GetInvolved/>
                 </Route>
             </Switch>
         </section>
