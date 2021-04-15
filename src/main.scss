@@ -4,4 +4,11 @@
  * Component's SCSS files imported here for final transpilation
  **/
 
-@import "sass/reset", "sass/screen-reader-only";
+@import "sass/reset",
+        "sass/screen-reader-only",
+        "components/MainNav/MainNav";
+
+html {
+    background-color: black;
+    scroll-behavior: smooth;
+}

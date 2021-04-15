@@ -3,18 +3,16 @@
  **/
 
 import React from 'react';
-
-// Import ReactDOM to utilize render
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 // Import Components
 import App from './App';
 
-// Import main CSS stylesheet
-import './main.css'
+// Import main SCSS stylesheet
+import './main.scss'
 
-ReactDOM.render(
+render(
     <Router>
         <App />
     </Router>,
