@@ -2,14 +2,17 @@
  * Remember your why
  * */
 
-import React from 'react';
+import React from "react";
 
-function GetInvolved() {
+// Import stylesheet
+import "./GetInvolved.css";
+
+function GetInvolved () {
     return (
         <section>
-        {/*    Placeholder  */}
+            {/*    Placeholder  */}
         </section>
-    )
+    );
 }
 
 export default GetInvolved;

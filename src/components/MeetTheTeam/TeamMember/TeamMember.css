@@ -2,16 +2,14 @@
  * Remember your why
  * */
 
-@use '../../../../src/sass/_projectVariables';
-
 figure {
     width: 42%;
     padding: 1%;
     margin: 2% 1%;
     background-color: navajowhite;
     border-radius: 3rem;
+}
 
-    .mug-shot {
-        width: 42%;
-    }
+.mug-shot {
+    width: 42%;
 }

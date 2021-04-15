@@ -1,0 +1,23 @@
+/**
+ * Remember your why
+ * */
+
+nav {
+    margin: 1.5%;
+}
+
+.navLink {
+    padding: 1%;
+    margin: 1%;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.75rem;
+    text-decoration: none;
+    background-color: rgb(200, 39, 4);
+    border-radius: 3rem;
+}
+
+.navLink:hover {
+    color: rgb(36, 48, 16);
+    background-color: rgb(32, 194, 141);
+}
