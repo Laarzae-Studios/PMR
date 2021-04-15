@@ -4,14 +4,7 @@
  * Component's SCSS files imported here for final transpilation
  **/
 
-@import "sass/reset",
-        "sass/screen-reader-only",
-        "components/MainNav/MainNav",
-        "components/Home/Home",
-        "components/ActiveProject/ActiveProject",
-        "components/MeetTheTeam/MeetTheTeam",
-        "components/GetInvolved/GetInvolved";
-
+@import "sass/reset", "sass/screen-reader-only", "components/MainNav/MainNav", "components/Home/Home", "components/ActiveProject/ActiveProject", "components/MeetTheTeam/MeetTheTeam", "components/GetInvolved/GetInvolved";
 
 html {
     background-color: black;
