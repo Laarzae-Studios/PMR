@@ -2,7 +2,7 @@
  * Remember your why
  * */
 
-import React       from "react";
+import React from "react";
 
 // Import stylesheet and photos
 import "./Home.css";
