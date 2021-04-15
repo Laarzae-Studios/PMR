@@ -2,8 +2,6 @@
  * Remember your why
  * */
 
-@use '../../sass/_projectVariables';
-
 .project-mage-logo {
     width: 24%;
 }
