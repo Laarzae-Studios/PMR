@@ -13,13 +13,7 @@ import theTeam from '../../data/theTeam';
 
 function MeetTheTeam() {
 	return (
-		<section
-        style={{
-            display:"grid",
-            gridTemplateColumns:"repeat(2, 50%)",
-            gap: 10
-        }}
-        >
+		<section className="meet-the-team">
 			{theTeam.map((teamMate, index) => {
 				return <TeamMember
                     key={index}

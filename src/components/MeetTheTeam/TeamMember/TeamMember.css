@@ -2,8 +2,14 @@
  * Remember your why
  * */
 
+.meet-the-team{
+    display: grid;
+    grid-template-columns:repeat(2, 50%);
+    gap: 10px;
+}
+
 figure {
-    width: 42%;
+    width: 95%;
     padding: 2rem;
     margin: 2% 1%;
     background-color: navajowhite;
