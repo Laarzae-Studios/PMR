@@ -13,9 +13,15 @@ import theTeam from '../../data/theTeam';
 
 function MeetTheTeam() {
 	return (
-		<section>
-			{theTeam.map((teamMate) => {
+		<section
+        style={{
+            display:"flex",
+            alignItems:"center"
+        }}
+        >
+			{theTeam.map((teamMate, index) => {
 				return <TeamMember
+                    key={index}
 					name={teamMate.name}
 					title={teamMate.title}
 					boringTitle={teamMate.boringTitle}
