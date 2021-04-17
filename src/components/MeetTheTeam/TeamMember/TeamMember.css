@@ -4,12 +4,37 @@
 
 figure {
     width: 42%;
-    padding: 1%;
+    padding: 2rem;
     margin: 2% 1%;
     background-color: navajowhite;
     border-radius: 3rem;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .mug-shot {
     width: 42%;
+    border-radius: 3rem;
+}
+
+.popover-btn{
+    border-radius: 3rem;
+    padding: .3rem;
+    margin: .1rem;
+}
+
+.member-fig-cap{
+    /*border: 1px solid white;*/
+    background-color: antiquewhite;
+    border-radius: 3rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.member-fig-cap > *{
+    /*border: 1px solid green;*/
 }

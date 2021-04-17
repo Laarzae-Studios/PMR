@@ -15,8 +15,9 @@ function MeetTheTeam() {
 	return (
 		<section
         style={{
-            display:"flex",
-            alignItems:"center"
+            display:"grid",
+            gridTemplateColumns:"repeat(2, 50%)",
+            gap: 10
         }}
         >
 			{theTeam.map((teamMate, index) => {
