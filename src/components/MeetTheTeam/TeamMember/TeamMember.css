@@ -41,6 +41,8 @@ figure {
     justify-content: space-around;
 }
 
-.member-fig-cap > *{
-    /*border: 1px solid green;*/
+@media only screen and (max-width: 750px) {
+    .meet-the-team{
+        grid-template-columns: repeat(1, 100%);
+    }
 }
