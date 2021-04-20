@@ -12,7 +12,7 @@ function MainNav () {
     return (
         <nav>
             <NavLink exact to="/" className="navLink" activeClassName="activeNavLink">
-                Home
+                Home! Clicky! Please don't merge me :[
             </NavLink>
             <NavLink to="/active-project" className="navLink" activeClassName="activeNavLink">
                 Active Project
