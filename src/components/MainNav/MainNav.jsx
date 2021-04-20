@@ -5,12 +5,18 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-// Import stylesheet
 import "./MainNav.css";
+
+import laarzaeLogo from "../../images/laarzae-logo.png";
 
 function MainNav () {
     return (
         <nav>
+            <img
+                className="laarzae-logo"
+                src={laarzaeLogo}
+                alt="Laarzae Studios: Gaming that gives back"
+            />
             <NavLink exact to="/" className="navLink" activeClassName="activeNavLink">
                 Home
             </NavLink>
