@@ -4,17 +4,16 @@
 import React from "react";
 import {Switch, Route} from "react-router-dom";
 
-// Import Components
 import MainNav from "./components/MainNav/MainNav";
 import Home from "./components/Home/Home";
 import ActiveProject from "./components/ActiveProject/ActiveProject";
 import MeetTheTeam from "./components/MeetTheTeam/MeetTheTeam";
 import GetInvolved from "./components/GetInvolved/GetInvolved";
+import GameDemo from "./components/GameDemo/GameDemo";
 
-// Import data for team
-// import theTeam from "./data/theTeam";
 
 function App() {
+
     return (
         <section className='App'>
             <MainNav/>
@@ -30,6 +29,9 @@ function App() {
                 </Route>
                 <Route exact path='/get-involved'>
                     <GetInvolved/>
+                </Route>
+                <Route exact path='/demo'>
+                    <GameDemo/>
                 </Route>
             </Switch>
         </section>
