@@ -18,7 +18,8 @@ function TeamMember ( { name, title, boringTitle, myCTA, myPassion, imgSrc } ) {
                     <h3 className="text-muted">{title}</h3>
                     <h4 className="subtitle text-muted">{boringTitle}</h4>
                 </hgroup>
-                <details>
+                <details className={"deets"}>
+                    <summary className={"deetsDrop"}>Details</summary>
                     <span className="myCTA">What Laarzae Means to Me: </span>
                     {myCTA}
                     <br/>

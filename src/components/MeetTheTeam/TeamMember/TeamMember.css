@@ -31,6 +31,47 @@ figure {
     margin: .1rem;
 }
 
+.deetsDrop:hover{
+    cursor: pointer;
+}
+
+.deets{
+    font-size: 1.5rem;
+    max-height: 50%;
+    overflow-y: scroll;
+}
+figcaption{
+}
+
+.deets::-webkit-scrollbar-thumb{
+    border-radius: 4px;
+    background-color: grey;
+}
+.deets::-webkit-scrollbar{
+    width: .66rem;
+    background-color: black;
+    border-radius: 4px;
+}
+.deets::-webkit-scrollbar-track{
+    border-radius: 4px;
+}
+
+/*
+html::-webkit-scrollbar {
+    width: .66rem;
+    background-color: #525252;
+}
+
+html::-webkit-scrollbar-track {
+    border-radius: 4px;
+}
+
+html::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgb(139, 139, 139);
+}
+ */
+
 .member-fig-cap{
     /*border: 1px solid white;*/
     background-color: antiquewhite;
