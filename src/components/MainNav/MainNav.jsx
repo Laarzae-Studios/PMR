@@ -1,6 +1,6 @@
 /**
  * Remember your why
- * */
+ **/
 
 import React from "react";
 import { NavLink } from "react-router-dom";
@@ -26,7 +26,7 @@ function MainNav () {
             <NavLink to="/the-team" className="navLink" activeClassName="activeNavLink">
                 Meet the Team
             </NavLink>
-            <NavLink to="/get-involved" className="navLink" activeClassName="activeNavLink">
+            <NavLink to="/get-involved" className="navLink lastNavLink" activeClassName="activeNavLink">
                 Get Involved
             </NavLink>
         </nav>

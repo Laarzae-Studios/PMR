@@ -1,79 +1,40 @@
 /**
  * Remember your why
- * */
-
-.meet-the-team{
-    display: grid;
-    grid-template-columns:repeat(2, 50%);
-    gap: 10px;
-}
-
+ **/
 figure {
-    width: 95%;
-    padding: 2rem;
-    margin: 2% 1%;
-    background-color: navajowhite;
-    border-radius: 3rem;
-    border: 1px solid white;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    padding: 2rem;
+    margin: 2% 3%;
+    border: .25rem solid #cd5700;
+    background-color: rgba(111, 111, 111, 0.5);
+    border-radius: 3rem;
 }
 
 .mug-shot {
-    width: 42%;
     border-radius: 3rem;
 }
 
-.popover-btn{
+.popover-btn {
     border-radius: 3rem;
     padding: .3rem;
     margin: .1rem;
 }
 
-.deetsDrop:hover{
-    cursor: pointer;
+.deetsDrop:hover {
+    cursor: cell;
 }
 
-.deets{
+.deets {
     font-size: 1.5rem;
-    max-height: 50%;
-    overflow-y: scroll;
-}
-figcaption{
+    /*max-height: 12rem;*/
+    height: fit-content;
 }
 
-.deets::-webkit-scrollbar-thumb{
-    border-radius: 4px;
-    background-color: grey;
-}
-.deets::-webkit-scrollbar{
-    width: .66rem;
-    background-color: black;
-    border-radius: 4px;
-}
-.deets::-webkit-scrollbar-track{
-    border-radius: 4px;
-}
-
-/*
-html::-webkit-scrollbar {
-    width: .66rem;
-    background-color: #525252;
-}
-
-html::-webkit-scrollbar-track {
-    border-radius: 4px;
-}
-
-html::-webkit-scrollbar-thumb {
-    border-radius: 4px;
-    background-color: rgb(139, 139, 139);
-}
- */
-
-.member-fig-cap{
-    /*border: 1px solid white;*/
+.member-fig-cap {
+    border: 1rem solid black;
     background-color: antiquewhite;
     border-radius: 3rem;
     padding: 2rem;
@@ -82,8 +43,3 @@ html::-webkit-scrollbar-thumb {
     justify-content: space-around;
 }
 
-@media only screen and (max-width: 750px) {
-    .meet-the-team{
-        grid-template-columns: repeat(1, 100%);
-    }
-}

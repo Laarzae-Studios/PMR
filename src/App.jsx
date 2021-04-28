@@ -11,9 +11,6 @@ import ActiveProject from "./components/ActiveProject/ActiveProject";
 import MeetTheTeam from "./components/MeetTheTeam/MeetTheTeam";
 import GetInvolved from "./components/GetInvolved/GetInvolved";
 
-// Import data for team
-// import theTeam from "./data/theTeam";
-
 function App() {
     return (
         <section className='App'>

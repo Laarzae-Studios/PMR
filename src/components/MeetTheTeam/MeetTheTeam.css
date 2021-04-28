@@ -1,0 +1,28 @@
+/**
+ * Remember your why
+ **/
+@media only screen and (min-width: 250px) {
+    .meet-the-team {
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+        margin: 0 2%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .meet-the-team {
+        grid-template-columns: repeat(2, 50%);
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .meet-the-team {
+        grid-template-columns: repeat(3, 33%) ;
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+    .meet-the-team {
+        margin: 0 10%;
+    }
+}

@@ -1,8 +1,8 @@
-#XX small devices (phones, 460px and down)
-##@media only screen and (max-width: 460px) {...}
-
-#Extra small devices (phones, 460px and up)
-##@media only screen and (min-width: 460px) {...}
+/**
+* Remember your why
+* */
+#Extra small devices (phones, up to 600px)
+##@media only screen and (min-width: 250px) {...}
 
 #Small devices (portrait tablets and large phones, 600px and up)
 ##@media only screen and (min-width: 600px) {...}
