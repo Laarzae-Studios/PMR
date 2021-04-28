@@ -1,0 +1,20 @@
+#XX small devices (phones, 460px and down)
+##@media only screen and (max-width: 460px) {...}
+
+#Extra small devices (phones, 460px and up)
+##@media only screen and (min-width: 460px) {...}
+
+#Small devices (portrait tablets and large phones, 600px and up)
+##@media only screen and (min-width: 600px) {...}
+
+#Medium devices (landscape tablets, 768px and up)
+##@media only screen and (min-width: 768px) {...}
+
+#Large devices (laptops/desktops, 992px and up)
+##@media only screen and (min-width: 992px) {...}
+
+#Extra large devices (large laptops and desktops, 1200px and up)
+##@media only screen and (min-width: 1200px) {...}
+
+#XXtra large devices (extended displays and TVs as monitors, 1800px and up)
+##@media only screen and (min-width: 1800px) {...}
