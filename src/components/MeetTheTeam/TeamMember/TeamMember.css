@@ -1,45 +1,50 @@
 /**
  * Remember your why
  **/
-figure {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: fit-content;
-    padding: 2rem;
-    margin: 2% 3%;
-    border: .25rem solid #cd5700;
-    background-color: rgba(111, 111, 111, 0.5);
-    border-radius: 3rem;
-}
+@media only screen and (min-width: 250px) {
+    figure {
+        display:          flex;
+        flex-direction:   column;
+        align-items:      center;
+        height:           fit-content;
+        padding:          3rem;
+        /*margin: 2% 3%;*/
+        border:           .5rem solid rgba(205, 87, 0, 0.75);
+        background-color: rgba(36, 48, 16, 0.75);
+        border-radius:    3rem;
+        }
 
-.mug-shot {
-    border-radius: 3rem;
-}
+    .mug-shot {
+        min-width:     50%;
+        max-width:     66%;
+        height:        auto;
+        border:        .5rem solid rgba(205, 87, 0, 0.75);
+        border-radius: 3rem;
+        }
 
-.popover-btn {
-    border-radius: 3rem;
-    padding: .3rem;
-    margin: .1rem;
-}
+    .popover-btn {
+        border-radius: 3rem;
+        padding:       .3rem;
+        margin:        .1rem;
+        }
 
-.deetsDrop:hover {
-    cursor: cell;
-}
+    .deetsDrop:hover {
+        cursor: cell;
+        }
 
-.deets {
-    font-size: 1.5rem;
-    /*max-height: 12rem;*/
-    height: fit-content;
-}
+    .deets {
+        font-size: 1.5rem;
+        height:    fit-content;
+        }
 
-.member-fig-cap {
-    border: 1rem solid black;
-    background-color: antiquewhite;
-    border-radius: 3rem;
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
+    .member-fig-cap {
+        border:           1rem solid black;
+        background-color: antiquewhite;
+        border-radius:    3rem;
+        padding:          2rem;
+        display:          flex;
+        flex-direction:   column;
+        justify-content:  space-around;
+        }
+    }
 
