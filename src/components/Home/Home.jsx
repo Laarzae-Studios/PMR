@@ -22,8 +22,8 @@ function Home () {
                 <h1>Laarzae Studios</h1>
                 <h2>Gaming That Gives Back</h2>
             </header>
-            <button className='gtgb-banner-1-btn' onClick={navigateToGetInvolved}>
-                <img className="gtgb-banner-1" src={gamingThatGivesBackBanner1}/>
+            <button className='gtgb-banner-1-btn' title='Get Involved' onClick={navigateToGetInvolved}>
+                <img className="gtgb-banner-1" src={gamingThatGivesBackBanner1} alt='Click here to donate and be a gamer that gives back' />
             </button>
         </section>
     );

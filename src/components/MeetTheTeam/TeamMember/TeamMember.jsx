@@ -7,7 +7,8 @@ import React from "react";
 // Import stylesheet
 import "./TeamMember.css";
 
-function TeamMember ( { name, title, boringTitle, myCTA, myPassion, imgSrc } ) {
+function TeamMember ( props ) {
+    const { name, title, boringTitle, myCTA, myPassion, imgSrc } = props;
 
     return (
         <figure>

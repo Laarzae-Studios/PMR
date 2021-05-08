@@ -1,31 +1,31 @@
 /**
  * Remember your why
  **/
-import React from "react";
-import {Switch, Route} from "react-router-dom";
+import React             from "react";
+import { Route, Switch } from "react-router-dom";
 
 // Import Components
-import MainNav from "./components/MainNav/MainNav";
-import Home from "./components/Home/Home";
+import MainNav       from "./components/MainNav/MainNav";
+import Home          from "./components/Home/Home";
 import ActiveProject from "./components/ActiveProject/ActiveProject";
-import MeetTheTeam from "./components/MeetTheTeam/MeetTheTeam";
-import GetInvolved from "./components/GetInvolved/GetInvolved";
+import MeetTheTeam   from "./components/MeetTheTeam/MeetTheTeam";
+import GetInvolved   from "./components/GetInvolved/GetInvolved";
 
-function App() {
+function App () {
     return (
-        <section className='App'>
+        <section className="App">
             <MainNav/>
             <Switch>
-                <Route exact path='/'>
+                <Route exact path="/">
                     <Home/>
                 </Route>
-                <Route exact path='/active-project'>
+                <Route exact path="/active-project">
                     <ActiveProject/>
                 </Route>
-                <Route exact path='/the-team'>
+                <Route exact path="/the-team">
                     <MeetTheTeam/>
                 </Route>
-                <Route exact path='/get-involved'>
+                <Route exact path="/get-involved">
                     <GetInvolved/>
                 </Route>
             </Switch>

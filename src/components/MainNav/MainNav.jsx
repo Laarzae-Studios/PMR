@@ -17,16 +17,16 @@ function MainNav () {
                 src={laarzaeLogo}
                 alt="Laarzae Studios: Gaming that gives back"
             />
-            <NavLink exact to="/" className="navLink" activeClassName="activeNavLink">
+            <NavLink exact to="/" className="navLink">
                 Home
             </NavLink>
-            <NavLink to="/active-project" className="navLink" activeClassName="activeNavLink">
+            <NavLink to="/active-project" className="navLink">
                 Active Project
             </NavLink>
-            <NavLink to="/the-team" className="navLink" activeClassName="activeNavLink">
+            <NavLink to="/the-team" className="navLink">
                 Meet the Team
             </NavLink>
-            <NavLink to="/get-involved" className="navLink lastNavLink" activeClassName="activeNavLink">
+            <NavLink to="/get-involved" className="navLink lastNavLink">
                 Get Involved
             </NavLink>
         </nav>
