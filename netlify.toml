@@ -3,8 +3,8 @@
     base = /
     command = "CI='' react-scripts build"
     commandOrigin = "config"
-    functions = "/opt/build/repo/netlify/functions"
-    publish = "/opt/build/repo/build"
+    functions = "netlify/functions"
+    publish = "/build"
     NODE_VERSION = "15.14.0"
     NPM_VERSION = "7.11.1"
 
