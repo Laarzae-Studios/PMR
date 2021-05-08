@@ -2,7 +2,6 @@
 [build]
     base = /
     command = "CI='' react-scripts build"
-    commandOrigin = "config"
     functions = "netlify/functions"
     publish = "/build"
     NODE_VERSION = "15.14.0"
