@@ -1,8 +1,6 @@
 # example netlify.toml
 [build]
-    base = /
     command = "CI='' react-scripts build"
-    commandOrigin = "config"
     functions = "netlify/functions"
     publish = "/build"
     NODE_VERSION = "15.14.0"
@@ -14,12 +12,3 @@
     from = "/*"
     status = 200
     to = "/index.html"
-
-  ## (optional) Settings for Netlify Dev
-  ## https://github.com/netlify/cli/blob/main/docs/netlify-dev.md#project-detection
-  #[dev]
-  #  command = "yarn start" # Command to start your dev server
-  #  port = 3000 # Port that the dev server will be listening on
-  #  publish = "dist" # Folder with the static content for _redirect file
-
-  ## more info on configuring this file: https://www.netlify.com/docs/netlify-toml-reference/
