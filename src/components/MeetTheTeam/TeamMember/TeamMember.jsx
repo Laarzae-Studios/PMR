@@ -10,23 +10,22 @@ import "./TeamMember.css";
 function TeamMember ( { name, title, boringTitle, myCTA, myPassion, imgSrc } ) {
 
     return (
-        <figure>
-            <img className="mug-shot" src={imgSrc} alt={name}/>
-            <figcaption className={"member-fig-cap"}>
+        <figure className='member-container'>
+            <img src={imgSrc} alt={name}/>
+            <figcaption className={"member-info-container"}>
                 <hgroup>
                     <h2>{name}</h2>
-                    <h3 className="text-muted">{title}</h3>
-                    <h4 className="subtitle text-muted">{boringTitle}</h4>
+                    <h3>{title}</h3>
+                    <h4>{boringTitle}</h4>
                 </hgroup>
-                <details className={"deets"}>
-                    <summary className={"deetsDrop"}>Details</summary>
-                    <span className="myCTA">What Laarzae Means to Me: </span>
-                    {myCTA}
-                    <br/>
-                    <span className="myPassion">Why I Code: </span>
-                    {myPassion}
+                <details>
+                    <summary>What Motivates Me</summary>
+                    <h2>What Laarzae Means to Me: </h2>
+                    <p>{myCTA}</p>
+                    <h2>Why I Code: </h2>
+                    <p>{myPassion}</p>
                 </details>
-                <button className={"popover-btn"}>Popover with Socials</button>
+                <button>Popover with Socials</button>
             </figcaption>
         </figure>
     );

@@ -1,34 +1,15 @@
 /**
  * Remember your why
  **/
+.gtgb-banner-1-btn {
+    background-color: black;
+    }
 
-@media only screen and (min-width: 250px) {
-    .gtgb-banner-1-btn {
-        background-color: black;
-        }
+.gtgb-banner-1-btn:hover {
+    cursor: pointer;
+    }
 
-    .gtgb-banner-1 {
-        width: 100%;
-        padding: 1% 18%;
-        }
-}
-
-@media only screen and (min-width: 600px) {
-
-}
-
-@media only screen and (min-width: 768px) {
-
-}
-
-@media only screen and (min-width: 992px) {
-
-}
-
-@media only screen and (min-width: 1200px) {
-
-}
-
-@media only screen and (min-width: 1800px) {
-
-}
+.gtgb-banner-1-btn > img {
+    padding: 1% 14%;
+    width:   100%;
+    }

@@ -1,50 +1,99 @@
 /**
  * Remember your why
  **/
-@media only screen and (min-width: 250px) {
-    figure {
-        display:          flex;
-        flex-direction:   column;
-        align-items:      center;
-        height:           fit-content;
-        padding:          3rem;
-        /*margin: 2% 3%;*/
-        border:           .5rem solid rgba(205, 87, 0, 0.75);
-        background-color: rgba(36, 48, 16, 0.75);
-        border-radius:    3rem;
-        }
-
-    .mug-shot {
-        min-width:     50%;
-        max-width:     66%;
-        height:        auto;
-        border:        .5rem solid rgba(205, 87, 0, 0.75);
-        border-radius: 3rem;
-        }
-
-    .popover-btn {
-        border-radius: 3rem;
-        padding:       .3rem;
-        margin:        .1rem;
-        }
-
-    .deetsDrop:hover {
-        cursor: cell;
-        }
-
-    .deets {
-        font-size: 1.5rem;
-        height:    fit-content;
-        }
-
-    .member-fig-cap {
-        border:           1rem solid black;
-        background-color: antiquewhite;
-        border-radius:    3rem;
-        padding:          2rem;
-        display:          flex;
-        flex-direction:   column;
-        justify-content:  space-around;
-        }
+.member-container {
+    align-items:      center;
+    background-color: rgba(36, 48, 16, 0.75);
+    border:           .5rem solid rgba(205, 87, 0, 0.75);
+    border-radius:    3rem;
+    display:          flex;
+    flex-direction:   column;
+    height:           fit-content;
+    padding:          2rem;
     }
 
+.member-container > img {
+    border:        .5rem solid rgba(205, 87, 0, 0.75);
+    border-radius: 3rem;
+    height:        auto;
+    margin-bottom: 3%;
+    max-width:     66%;
+    min-width:     42%;
+    }
+
+.member-info-container {
+    background-color: rgba(248, 238, 219, 0.75);
+    border:           .5rem double black;
+    border-radius:    3rem;
+    display:          flex;
+    flex-direction:   column;
+    justify-content:  space-around;
+    padding:          2rem 1rem;
+    width:            100%;
+    }
+
+.member-info-container > hgroup {
+    text-align: center;
+    }
+
+.member-info-container > hgroup > h2 {
+    font-family: "Zilla Slab Highlight", cursive;
+    font-size:   3rem;
+    white-space: nowrap;
+    }
+
+.member-info-container > hgroup > h3 {
+    font-family: "Akaya Telivigala", sans-serif;
+    font-size:   2rem;
+    font-weight: bold;
+    padding-top: 2%;
+    }
+
+.member-info-container > hgroup > h4 {
+    border-bottom: .25rem solid black;
+    font-family:   "Press Start 2P", monospace;
+    font-size:     1rem;
+    line-height:   1.5rem;
+    margin-bottom: 2%;
+    padding:       2% 0;
+    }
+
+.member-info-container > details {
+    height: fit-content;
+    }
+
+.member-info-container > details > summary {
+    font-family: "Zilla Slab Highlight", cursive;
+    font-size:   2.25rem;
+    padding:     2%;
+    }
+
+.member-info-container > details > summary:hover {
+    cursor:          pointer;
+    text-decoration: solid underline overline black;
+    }
+
+.member-info-container > details > h2 {
+    border-bottom: .25rem solid black;
+    font-family:   "Press Start 2P", monospace;
+    font-size:     1.75rem;
+    padding:       2% 0;
+    text-align:    center;
+    }
+
+.member-info-container > details > p {
+    background-color: rgba(36, 48, 16, .75);
+    border-radius: 2rem;
+    color: antiquewhite;
+    font-family:      monospace;
+    font-size:        2rem;
+    font-weight:      bold;
+    padding:          2%;
+    text-align:       center;
+    }
+
+.member-info-container > button {
+    border-radius: 3rem;
+    margin:        2%;
+    padding:       2%;
+    }
