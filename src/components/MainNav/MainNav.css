@@ -23,11 +23,11 @@
         -webkit-box-align:     center;
         -ms-flex-align:     center;
         align-items:     center;
-        }
+    }
 
     .laarzae-logo {
         width: 46%;
-        }
+    }
 
     .navLink {
         width:            50%;
@@ -42,37 +42,37 @@
         white-space:      nowrap;
         background-color: rgb(200, 39, 4);
         border-radius:    3rem;
-        }
+    }
 
     .navLink:hover {
         color:            rgb(36, 48, 16);
         background-color: rgb(32, 194, 141);
-        }
+    }
     }
 
 @media only screen and (min-width: 600px) {
     nav {
         margin: 0 2%;
-        }
+    }
 
     .navLink {
         width:     33%;
         font-size: 1.125rem;
-        }
+    }
     }
 
 @media only screen and (min-width: 768px) {
     .laarzae-logo {
         width:  24%;
         margin: 0 0 0 4%;
-        }
+    }
 
     nav {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
         -ms-flex-direction: row;
         flex-direction: row;
-        }
+    }
 
     .navLink {
         -ms-flex-item-align: end;
@@ -83,46 +83,46 @@
         width:               fit-content;
         margin:              0 0 5% 1%;
         font-size:           1.125rem;
-        }
+    }
 
     .lastNavLink {
         margin-right: 6%;
-        }
+    }
     }
 
 @media only screen and (min-width: 992px) {
     .laarzae-logo {
         margin: 0 4% 0 3%;
-        }
+    }
 
     .navLink {
         font-size: 1.25rem;
-        }
+    }
 
     }
 
 @media only screen and (min-width: 1200px) {
     .laarzae-logo {
         margin-right: 20%;
-        }
+    }
 
     .navLink {
         width: 18%;
-        }
+    }
     }
 
 @media only screen and (min-width: 1800px) {
     .laarzae-logo {
         width:        20%;
         margin-right: 25%;
-        }
+    }
 
     nav {
         margin: 0 4%;
-        }
+    }
 
     .navLink {
         width:  12%;
         margin: 0 0 5.25% 1%;
-        }
+    }
     }
