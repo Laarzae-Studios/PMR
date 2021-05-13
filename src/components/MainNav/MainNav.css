@@ -48,7 +48,7 @@
         color:            rgb(36, 48, 16);
         background-color: rgb(32, 194, 141);
     }
-    }
+}
 
 @media only screen and (min-width: 600px) {
     nav {
@@ -59,7 +59,7 @@
         width:     33%;
         font-size: 1.125rem;
     }
-    }
+}
 
 @media only screen and (min-width: 768px) {
     .laarzae-logo {
@@ -88,7 +88,7 @@
     .lastNavLink {
         margin-right: 6%;
     }
-    }
+}
 
 @media only screen and (min-width: 992px) {
     .laarzae-logo {
@@ -98,8 +98,7 @@
     .navLink {
         font-size: 1.25rem;
     }
-
-    }
+}
 
 @media only screen and (min-width: 1200px) {
     .laarzae-logo {
@@ -109,7 +108,7 @@
     .navLink {
         width: 18%;
     }
-    }
+}
 
 @media only screen and (min-width: 1800px) {
     .laarzae-logo {
@@ -125,4 +124,4 @@
         width:  12%;
         margin: 0 0 5.25% 1%;
     }
-    }
+}
