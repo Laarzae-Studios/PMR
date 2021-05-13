@@ -9,7 +9,7 @@ import MainNav from "./components/MainNav/MainNav";
 import Home from "./components/Home/Home";
 import ActiveProject from "./components/ActiveProject/ActiveProject";
 import MeetTheTeam from "./components/MeetTheTeam/MeetTheTeam";
-import GetInvolved      from "./components/GetInvolved/GetInvolved";
+import GetInvolved from "./components/GetInvolved/GetInvolved";
 import Cancel from "./components/Cancel/Cancel";
 
 function App() {
