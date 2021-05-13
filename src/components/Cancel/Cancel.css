@@ -3,13 +3,13 @@
     margin: 5% 33%;
     place-items: center;
     text-align: center;
-    }
+}
 
 .cancel-container > h2 {
     color: white;
     font-family: "Press Start 2P", monospace;
     font-size: 3rem;
-    }
+}
 
 .cancel-container > form {
     display: flex;
@@ -17,18 +17,18 @@
     font-size: 3rem;
     margin-top: 5%;
     width: 66%;
-    }
+}
 
 .cancel-container > form > label {
     color: antiquewhite;
     padding: 2%;
-    }
+}
 
 .cancel-container > form > input {
     background-color: navajowhite;
     padding: 2%;
-    }
+}
 
 .cancel-container > form > button {
     margin: 5%;
-    }
+}
