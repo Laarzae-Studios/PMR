@@ -2,8 +2,8 @@
  * Remember your why
  **/
 
-import React                      from "react";
-import { useHistory }             from "react-router-dom";
+import React from "react";
+import { useHistory } from "react-router-dom";
 
 // Import stylesheet and photos
 import "./Home.css";
