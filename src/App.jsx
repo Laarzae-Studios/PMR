@@ -35,6 +35,6 @@ function App() {
             </Switch>
         </>
     );
-}a
+}
 
 export default App;
