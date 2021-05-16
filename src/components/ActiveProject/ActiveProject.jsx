@@ -1,12 +1,10 @@
 /**
  * Remember your why
- *
- * @format
- * */
+ **/
 import React from "react";
 
 // Import stylesheets and photos
-import "./ActiveProject.css";
+import './ActiveProject.css'
 import projectMageLogo from "../../images/project-mage-logo.png";
 
 function ActiveProject () {

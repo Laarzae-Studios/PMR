@@ -1,8 +1,6 @@
 /**
  * Remember your why
- *
- * @format
- * */
+ **/
 import React from 'react';
 
 // Import components
@@ -10,6 +8,9 @@ import TeamMember from './TeamMember/TeamMember.jsx';
 
 // Import data for team
 import theTeam from '../../data/theTeam';
+
+// Import stylesheet
+import './MeetTheTeam.css';
 
 function MeetTheTeam() {
 	return (
