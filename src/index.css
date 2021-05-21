@@ -1,12 +1,23 @@
 /**
  * Remember your why
  *
+ * font import
+ **/
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Press+Start+2P&family=Zilla+Slab+Highlight&display=swap");
+
+/**
  * tdubs reset made by mixing minimalistic and condensed universal reset
  *
  * I add the font-size to ensure proper REM render, and old browser support
+ *
+ * Prefixed by https://autoprefixer.github.io
+ * PostCSS: v7.0.29,
+ * Autoprefixer: v9.7.6
+ * Browsers: last 4 version
  **/
 
 * {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -25,12 +36,12 @@ html {
 }
 
 /**
- * use to hide hgroups visually without losing SEO and screen reader functionality from hgroups
+ * use to hide headers and hgroups visually without losing SEO and screen reader functionality from headers and hgroups
  **/
-
 .screen-reader-only {
     border: 0;
     clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(50%);
     clip-path: inset(50%);
     height: 1px;
     margin: -1px;
@@ -44,3 +55,22 @@ html {
 /**
  * source : https://make.wordpress.org/accessibility/handbook/markup/the-css-class-screen-reader-text/
  **/
+
+/**
+ * Randy's scrollbar styling
+ **/
+html::-webkit-scrollbar {
+    width: 1.5rem;
+    background-color: rgba(38, 20, 71, 0.75);
+}
+
+html::-webkit-scrollbar-track {
+    border-radius: 2%;
+}
+
+html::-webkit-scrollbar-thumb {
+    outline: .25rem solid white;
+    border-radius: 2%;
+    background-color: rgba(32, 194, 141, 0.75);
+}
+

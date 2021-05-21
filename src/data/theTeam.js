@@ -1,8 +1,6 @@
 /**
  * Remember your why
- *
- * @format
- * */
+ **/
 
 // Import photos
 import timPhoto from '../images/tim-pixel.png';

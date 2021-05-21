@@ -1,9 +1,15 @@
 /**
  * Remember your why
- * */
+ **/
+.gtgb-banner-1-btn {
+    background-color: black;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Press+Start+2P&family=Zilla+Slab+Highlight&display=swap');
+.gtgb-banner-1-btn:hover {
+    cursor: pointer;
+}
 
-.laarzae-logo {
-    width: 33%;
+.gtgb-banner-1-btn > img {
+    padding: 1% 14%;
+    width:   100%;
 }

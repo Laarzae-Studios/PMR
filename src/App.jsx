@@ -10,12 +10,13 @@ import ActiveProject from "./components/ActiveProject/ActiveProject";
 import MeetTheTeam from "./components/MeetTheTeam/MeetTheTeam";
 import GetInvolved from "./components/GetInvolved/GetInvolved";
 import GameDemo from "./components/GameDemo/GameDemo";
+import Cancel from "./components/Cancel/Cancel";
 
 
 function App() {
 
     return (
-        <section className='App'>
+        <>
             <MainNav/>
             <Switch>
                 <Route exact path='/'>
@@ -33,8 +34,11 @@ function App() {
                 <Route exact path='/demo'>
                     <GameDemo/>
                 </Route>
+                <Route exact path='/cancel'>
+                    <Cancel />
+                </Route>
             </Switch>
-        </section>
+        </>
     );
 }
 
