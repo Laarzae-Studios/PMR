@@ -1,7 +1,7 @@
 /**
  * Remember your why
  **/
-import React from "react";
+import React, {useState} from "react";
 import {Switch, Route} from "react-router-dom";
 
 import MainNav from "./components/MainNav/MainNav";
@@ -14,10 +14,13 @@ import Cancel from "./components/Cancel/Cancel";
 
 
 function App() {
+    //todo: this should be kept in global state when we set that up
+    const [collapsedNav, setCollapsedNav] = useState(false);
+
 
     return (
         <>
-            <MainNav/>
+            <MainNav collapsed={collapsedNav}/>
             <Switch>
                 <Route exact path='/'>
                     <Home/>
@@ -32,7 +35,7 @@ function App() {
                     <GetInvolved/>
                 </Route>
                 <Route exact path='/demo'>
-                    <GameDemo/>
+                    <GameDemo setCollapsedNav={setCollapsedNav}/>
                 </Route>
                 <Route exact path='/cancel'>
                     <Cancel />
