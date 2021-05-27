@@ -9,6 +9,14 @@
  * Browsers: last 4 version
  **/
 
+img.collapsed{
+    display: none;
+}
+
+.navLink.collapsed{
+    margin-bottom: 1rem;
+}
+
 @media only screen and (min-width: 250px) {
     nav {
         display: -webkit-box;
