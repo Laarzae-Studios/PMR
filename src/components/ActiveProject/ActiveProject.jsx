@@ -1,13 +1,18 @@
 /**
  * Remember your why
  **/
-import React from "react";
+import React, { useEffect } from "react";
 
 // Import stylesheets and photos
 import './ActiveProject.css'
 import projectMageLogo from "../../images/project-mage-logo.png";
 
 function ActiveProject () {
+    useEffect(() => {
+        const image = new Image();
+        image.src = "../../images/gamingThatGivesBackBanner1.jpg";
+    }, [])
+
     return (
         <section>
             <header className="screen-reader-only">

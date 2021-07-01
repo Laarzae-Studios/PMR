@@ -2,12 +2,17 @@
  * Remember your why
  **/
 
-import React from "react";
+import React, { useEffect }   from "react";
 
 // Import stylesheet
 import "./TeamMember.css";
 
 function TeamMember ( { name, title, boringTitle, myCTA, myPassion, imgSrc } ) {
+    useEffect(() => {
+            const image = new Image();
+            image.src = imgSrc;
+            return image;
+    }, [imgSrc])
 
     return (
         <figure className='member-container'>

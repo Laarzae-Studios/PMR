@@ -2,17 +2,23 @@
  * Remember your why
  **/
 
-import React                      from "react";
+import React, { useEffect }                      from "react";
 import { useHistory }             from "react-router-dom";
 
 // Import stylesheet and photos
 import "./Home.css";
-import gamingThatGivesBackBanner1 from "../../images/gamingThatGivesBackBanner1.jpg";
+import bannerImg from "../../images/gamingThatGivesBackBanner1.jpg";
 
-function Home () {
+const Home = () => {
     const history = useHistory();
 
-    function navigateToGetInvolved () {
+    useEffect(() => {
+        const image = new Image();
+        image.src = "../../images/gamingThatGivesBackBanner1.jpg";
+        return image;
+    }, [])
+
+    const navigateToGetInvolved = () => {
         history.push( "/get-involved" );
     }
 
@@ -24,7 +30,7 @@ function Home () {
             </header>
             <button className='gtgb-banner-1-btn' onClick={navigateToGetInvolved}>
                 <img
-                    src={gamingThatGivesBackBanner1}
+                    src={bannerImg}
                     alt='Click here to donate to Laarzae Studios or add your email to get updates'
                 />
             </button>
