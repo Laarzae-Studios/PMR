@@ -2,12 +2,17 @@
  * Remember your why
  **/
 
-import React from "react";
+import React, { useEffect } from "react";
 
 // Import stylesheet
 import "./GetInvolved.css";
 
 function GetInvolved () {
+    useEffect(() => {
+        const image = new Image();
+        image.src = "../../images/gamingThatGivesBackBanner1.jpg";
+    }, [])
+
     return (
         <section>
             {/* Start of code from PayPal */}
