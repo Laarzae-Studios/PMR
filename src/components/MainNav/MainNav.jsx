@@ -1,16 +1,10 @@
-/**
- * Remember your why
- **/
-
-import React from "react";
 import { NavLink } from "react-router-dom";
 
 import "./MainNav.css";
-
 import laarzaeLogo from "../../images/laarzae-logo.png";
 
-function MainNav () {
-    return (
+const MainNav = () => {
+	return (
         <nav>
             <img
                 className="laarzae-logo"
