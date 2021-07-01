@@ -1,12 +1,9 @@
-import { useState } from 'react';
 import { NavLink } from "react-router-dom";
 
 import "./MainNav.css";
 import laarzaeLogo from "../../images/laarzae-logo.png";
 
 const MainNav = () => {
-	const [ toggleNav, setToggleNav ] = useState(false);
-
 	return (
         <nav>
             <img
