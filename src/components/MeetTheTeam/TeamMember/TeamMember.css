@@ -38,7 +38,7 @@
 
 .member-info-container > hgroup > h2 {
     font-family: "Zilla Slab Highlight", cursive;
-    font-size: 3rem;
+    font-size: 2.75rem;
     white-space: nowrap;
 }
 
@@ -64,7 +64,7 @@
 
 .member-info-container > details > summary {
     font-family: "Zilla Slab Highlight", cursive;
-    font-size: 2.25rem;
+    font-size: 1.75rem;
     padding: 2%;
 }
 
